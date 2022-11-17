@@ -1,0 +1,110 @@
+# IDEs
+.idea/
+.vs/
+.vscode/
+
+#########################################
+# C/C++
+#########################################
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build folders
+build*/
+_build*/
+cmake-build*/
+
+# CMake (custom developer preset)
+CMakeUserPresets.json
+
+# Mac
+.DS_Store
+
+#########################################
+# Python
+#########################################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+#########################################
+# ROS
+#########################################
+
+# ROS2 build folders
+build_isolated/*
+devel_isolated/*
+build/*
+install/*
+log/*
+bin/
+msg_gen/
+srv_gen/
+
+# Catkin custom files
+CATKIN_IGNORE
