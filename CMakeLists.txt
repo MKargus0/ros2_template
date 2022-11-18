@@ -62,6 +62,18 @@ ament_target_dependencies(talker
         std_msgs)
 
 # install nodes executables
+#get_property(target_names DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY BUILDSYSTEM_TARGETS)
+#foreach(target ${target_names})
+#    get_target_property(target_type talker TYPE)
+#    if(NOT ${target} EQUAL uninstall)
+#    install(TARGETS
+#            ${target}
+#            DESTINATION lib/${PROJECT_NAME})
+##    message(STATUS ${target_type} "  " ${target})
+#    endif()
+#endforeach()
+
+
 install(TARGETS
         talker
         DESTINATION lib/${PROJECT_NAME})
