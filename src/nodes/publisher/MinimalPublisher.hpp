@@ -19,6 +19,8 @@ class MinimalPublisher : public rclcpp::Node
 		MinimalPublisher();
 
 	private:
+		std::string bot_name_;
+		float max_speed_;
 		void timer_callback();
 		rclcpp::TimerBase::SharedPtr timer_;
 		rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;

@@ -1,0 +1,4 @@
+/minimal_publisher:
+ros__parameters:
+bot_name: "Pathfinder"
+max_speed: 1.4
